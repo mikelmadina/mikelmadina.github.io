@@ -1,0 +1,70 @@
+baseurl = "http://www.mikelmadina.com"
+title = "Mikel Madina"
+theme = "coder"
+
+languagecode = "es"
+defaultcontentlanguage = "es"
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Mikel Madina"
+    description = "John Doe's personal website"
+    keywords = "blog,datos,comunicación,personal"
+    info = "Comunicación y datos"
+
+    avatarurl = "images/avatar-mikelmadina.jpg"
+    favicon_32 = "images/favicon-32x32.png"
+    favicon_16 = "images/favicon-16x16.png"
+
+#    footercontent = "Enter a text here."
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 1
+    url = "https://twitter.com/neregauzak/"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 2
+    url = "https://github.com/mikelmadina/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 3
+    url = "https://www.linkedin.com/in/mmadina/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "Proyectos"
+    weight = 2
+    url = "/proyectos/"
+[[menu.main]]
+    name = "CV"
+    weight = 3
+    url = "/cv/"
+[[menu.main]]
+    name = "Contacto"
+    weight = 4
+    url = "/contacto/"
